@@ -1,0 +1,33 @@
+.semi-transparent-button {
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 8px;
+    width: 80%;
+    max-width: 200px;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+}
+
+.slider-font {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+.semi-transparent-button:hover {
+    background: #de7600;
+    background: rgb(229, 122, 22);
+}
+
+.top-destination {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+}
+
+.top-destination::after {
+    box-sizing: border-box;
+}
